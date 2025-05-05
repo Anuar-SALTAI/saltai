@@ -1,6 +1,6 @@
 FROM python:3.10-slim
 
-WORKDIR /app/backend
+WORKDIR /app
 
 COPY backend/requirements.txt .
 
