@@ -1,1 +1,8 @@
-# main.py – dummy content
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"message": "SALT.AI backend is working"}
